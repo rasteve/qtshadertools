@@ -35,3 +35,6 @@ navigation.toctitles = "Qt Shader Tools module topics"
 navigation.toctitles.inclusive = false
 
 macro.cmakeoptionsince = "\n\nThis option was introduced in Qt \1.\n\n"
+
+# Allow zero warnings when testing documentation in CI
+warninglimit = 0
